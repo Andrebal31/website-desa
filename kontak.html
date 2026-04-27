@@ -66,23 +66,49 @@
           <b>Hubungi Kami</b>
         </td>
       </tr>
-
       <tr>
         <td>
-          <form>
-            <b>Nama:</b><br />
-            <input type="text" size="30" /><br /><br />
+       <form>
 
-            <b>Email:</b><br />
-            <input type="email" size="30" /><br /><br />
+<b>Nama:</b><br>
+<input type="text" name="nama" size="30"><br><br>
 
-            <b>Pesan:</b><br />
-            <textarea rows="4" cols="28"></textarea><br /><br />
+<b>Email:</b><br>
+<input type="email" name="email" size="30"><br><br>
 
-            <center>
-              <input type="submit" value="Kirim" />
-            </center>
-          </form>
+<b>Jenis Kelamin:</b><br>
+<input type="radio" name="jk" value="L"> Laki-laki
+<input type="radio" name="jk" value="P"> Perempuan<br><br>
+
+<b>Status:</b><br>
+<input type="radio" name="status" value="pelajar"> Pelajar
+<input type="radio" name="status" value="mahasiswa"> Mahasiswa
+<input type="radio" name="status" value="umum"> Umum<br><br>
+
+<b>Minat Kegiatan:</b><br>
+<input type="checkbox" name="minat" value="gotong"> Gotong Royong
+<input type="checkbox" name="minat" value="posyandu"> Posyandu
+<input type="checkbox" name="minat" value="karang"> Karang Taruna<br><br>
+
+<b>Pilih Layanan:</b><br>
+<select name="layanan">
+<option>Pelayanan Surat</option>
+<option>Pengaduan</option>
+<option>Informasi Desa</option>
+</select><br><br>
+
+<b>Tanggal:</b><br>
+<input type="date" name="tanggal"><br><br>
+
+<b>Pesan:</b><br>
+<textarea name="pesan" rows="4" cols="30"></textarea><br><br>
+
+<center>
+<input type="submit" value="Kirim">
+<input type="reset" value="Reset">
+</center>
+
+</form>
         </td>
       </tr>
     </table>
